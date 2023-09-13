@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
   FaJava,
   FaFlask,
 } from "react-icons/fa";
@@ -207,7 +206,7 @@ export const educationData = [
   {
     name: "San Jose State University",
     designation: "Masters in Data Analystics",
-    location: "San Jose, California",
+    location: "San Jose, CA",
     duration: "Aug 2022 - May 2024",
     grade: "3.6/4.0",
     companyImg: "sjsu.jpeg",

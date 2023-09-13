@@ -7,6 +7,8 @@ import {
   Center,
   Box,
   Text,
+  HStack,
+  Button,
 } from "@chakra-ui/react";
 import InterestsCard from "./InterestsCard";
 import { interestsData } from "../../utils/constants";
@@ -40,15 +42,20 @@ const Page = () => {
                 real-world problems.
               </Text>
               <br />
-              <Text>
-                📫 Open to collaborations and exciting projects, I&apos;m eager
-                to connect with fellow developers and tech enthusiasts.
-                Let&apos;s build something amazing together!
-              </Text>
-              <Text>
-                Happy coding! 🖥️
-                <br />
-              </Text>
+              <br />
+              <HStack>
+                <Button colorScheme="teal" size="lg">
+                  <a
+                    href="/images/resume.pdf"
+                    class="btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>Resume</span>
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </Button>
+              </HStack>
             </Box>
             {/* <SimpleGrid
               columns={[1, null, 2]}
