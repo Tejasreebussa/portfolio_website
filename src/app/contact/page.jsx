@@ -59,7 +59,7 @@ const Contact = () => {
                 cursor="pointer"
               >
                 <Icon as={ImLocation} mx={2} />
-                <span>Hyderabad, India</span>
+                <span>San Jose, CA</span>
               </Text>
             </Tooltip>
           </Stack>
