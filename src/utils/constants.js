@@ -310,7 +310,8 @@ export const projectsData = [
     title: "Data Warehouse Implementation & Analysis",
     image: null,
     link: null,
-    source: null,
+    source:
+      "https://github.com/Tejasreebussa/Cloud-Analytics-and-Data-Warehouse-Implementation-for-Historical-Data",
     description: [
       "Established a private VPC network for Cloud SQL and moved data to BigQuery and Google Cloud Storage.",
       "Leveraged Cloud Composer to design over 3 environments for scaling, implemented ETL pipeline and DAGs.",
@@ -319,10 +320,22 @@ export const projectsData = [
   },
   {
     type: "WEB-APP",
+    title: "Data Telco Customer Churn Prediction",
+    image: null,
+    link: null,
+    source: null,
+    description: [
+      "Earned an outstanding AUC value of 93.3%, demonstrating expertise in feature engineering, selection, and model evaluation.",
+      "Conducted an extensive comparative analysis of machine learning algorithms, including Decision Trees, Random Forest, XGBoost, and logistic regression and increasing F-measure performance metrics by up to 26.2%.",
+      "Improved prediction performance through application of advanced algorithms, achieving 93% accuracy through hyperparameter tuning, and developed an interactive dashboard for visualizing churn insights and strategic decisions.",
+    ],
+  },
+  {
+    type: "WEB-APP",
     title: "Portfolio Website",
     image: "portfolio-website",
     link: null,
-    source: "null",
+    source: "https://github.com/Tejasreebussa/portfolio_website",
     description: ["A Portfolio Website"],
   },
 ];
@@ -334,12 +347,12 @@ export const socialMediaLinks = [
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
-  {
-    href: "https://www.instagram.com/tejasree_22/",
-    icon: FaInstagram,
-    backgroundColor: "social.instagram",
-    hoverColor: "social.instagramHover",
-  },
+  // {
+  //   href: "https://www.instagram.com/tejasree_22/",
+  //   icon: FaInstagram,
+  //   backgroundColor: "social.instagram",
+  //   hoverColor: "social.instagramHover",
+  // },
   {
     href: "https://www.linkedin.com/in/tejasree-bussa/",
     icon: FaLinkedin,
